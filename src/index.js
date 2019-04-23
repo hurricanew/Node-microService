@@ -1,7 +1,7 @@
 var http = require("http");
 
 var stringManipulation = require("./util/string-manipulation");
-console.log(stringManipulation.stringToOrdinal("aabb"));
+console.log(stringManipulation.stringToOrdinal("aabbc"));
 //create a server object:
 http
   .createServer(function(req, res) {
